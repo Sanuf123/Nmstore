@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NM General Store - Grocery Online</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #388E3C;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('https://images.unsplash.com/photo-1586201375761-83865001e17b');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 15px 0 10px;
+        }
+        .product p {
+            margin-bottom: 15px;
+        }
+        .product button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to NM General Store</h1>
+        <p>Your daily grocery needs, delivered fresh!</p>
+    </header>
+    <nav>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Fresh Groceries at Your Doorstep!</h2>
+        <p>Order online and get fast delivery!</p>
+    </section>
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1582515073490-399813c962d3" alt="Rice Bag">
+            <h3>Basmati Rice (5kg)</h3>
+            <p>Price: ₹550</p>
+            <button>Order Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1587202372775-a5f1d43a68d4" alt="Wheat Flour">
+            <h3>Wheat Flour (10kg)</h3>
+            <p>Price: ₹420</p>
+            <button>Order Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1590080876795-904f59eaeed4" alt="Cooking Oil">
+            <h3>Sunflower Oil (1L)</h3>
+            <p>Price: ₹150</p>
+            <button>Order Now</button>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1615484477657-8000aefdd0b2" alt="Spices Pack">
+            <h3>Spices Pack (Combo)</h3>
+            <p>Price: ₹250</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Contact us: +91 9876543210 | nmstore@example.com</p>
+        <p>&copy; 2025 NM General Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
