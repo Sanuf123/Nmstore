@@ -1,0 +1,2 @@
+# Nmstore
+GeneralStore
